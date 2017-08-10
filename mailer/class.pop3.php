@@ -23,6 +23,7 @@
 */
 
 /**
+ *
  * PHPMailer - PHP POP Before SMTP Authentication Class
  * NOTE: Designed for use with PHP version 5 and up
  * @package PHPMailer
