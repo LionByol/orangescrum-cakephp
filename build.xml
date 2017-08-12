@@ -17,10 +17,6 @@
 	<taskdef classname="phing.tasks.ext.d51PearPkg2Task" name="d51pearpkg2" />
 	<property file="build.properties" />
 
-	<!--
-		The set of files we're going to package
-		Exclude the cli scripts, as they get installed separately.
-	 -->
 	<fileset id="libs" dir="./lib/Cake">
 		<include name="**" />
 		<exclude name="Console/cake.bat" />
